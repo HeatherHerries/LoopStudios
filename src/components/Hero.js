@@ -10,15 +10,7 @@ function Hero() {
     menuToggle(!menuOpen);
   };
 
-  const renderClassName = () => {
-    let className = 'menu';
-
-    if (menuOpen) {
-      className += 'active'
-    }
-
-    return className
-  }
+  
   
   return (
     <div className='container'>
@@ -26,7 +18,7 @@ function Hero() {
         <div className='logo'>
           <h1>loopstudios</h1>
         </div>
-        <ul className={renderClassName()}>
+        <ul className={`menu${menuOpen ? ' active'  : ''}`}>
           <li className='link'><a href="#">About</a></li>
           <li className='link'><a href="#">Careers</a></li>
           <li className='link'><a href="#">Events</a></li>
