@@ -11,7 +11,6 @@ function Hero() {
   };
 
   
-  
   return (
     <div className='container'>
       <nav>
