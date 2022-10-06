@@ -60,9 +60,30 @@ img {
 }
 
 @media screen and (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
   .hamburger {
     display: block;
   }
 
-  
+  .menu {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 64vh;
+    align-items: center;
+    width: 100%;
+    top: 16vh;
+    justify-content: space-around;
+    margin-right: 0;
+    background-color: #34283A;
+    font-size: 24px;
+    transform: translateX(100%);
+  }
+
+  .active {
+    transform: translateX(0%);
+  }
 }
