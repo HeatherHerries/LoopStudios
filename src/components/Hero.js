@@ -28,11 +28,10 @@ function Hero() {
           <i className='fa-solid fa-bars fa-lg'></i>
         </div>
       </nav>
-      <img src={HeroImg} alt="" />
-     
-      <div className='tagline-container'>
-        <h1 className='tagline'>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
-      </div>
+     <img src={HeroImg} alt="" />
+     <div className="tagline-container">
+      <h1 className='tagline'>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+     </div>
     </div>
   )
 }
